@@ -4,6 +4,7 @@ package rashjz.info.app;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import rashjz.info.app.dao.UserDao;
 
 import java.sql.SQLException;
 
@@ -18,6 +19,8 @@ public class MainClass {
         UserDao userDao = (UserDao) context.getBean("userDao");
         try {
             workerThread.printLabel();
+
+            logger.info("checking stored procedure ");
             String roleName = userDao.getRoleName(1);
             logger.info("role name is " + roleName);
         } catch (SQLException e) {
