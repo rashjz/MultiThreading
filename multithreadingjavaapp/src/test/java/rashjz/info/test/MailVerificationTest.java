@@ -15,7 +15,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:spring-batch-test.xml"})
+@ContextConfiguration(locations = {"classpath:spring-context-test.xml"})
 public class MailVerificationTest {
     List<String> mails = new ArrayList<>();
     @Autowired

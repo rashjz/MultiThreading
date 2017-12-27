@@ -12,7 +12,7 @@ public class MainClass {
 
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring-batch.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
         WorkerThread workerThread = (WorkerThread) context.getBean("workerThread");
         workerThread.printLabel();
     }
