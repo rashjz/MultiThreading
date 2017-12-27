@@ -13,10 +13,20 @@
             </list>
         </property>
     </bean>
-
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+    </bean>
 
     <bean id="workerThread" class="rashjz.info.app.WorkerThread">
         <property name="name" value="${name}"/>
+        <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <bean id="userDao" class="rashjz.info.app.UserDao">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
 </beans>
