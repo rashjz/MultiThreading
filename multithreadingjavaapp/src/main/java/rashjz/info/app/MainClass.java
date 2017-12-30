@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import rashjz.info.app.dao.UserDao;
+import rashjz.info.app.workers.WorkerThread;
 
 import java.sql.SQLException;
 

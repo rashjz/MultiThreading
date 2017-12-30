@@ -15,11 +15,11 @@
     </bean>
 
 
-    <bean id="workerThread" class="rashjz.info.app.WorkerThread">
+    <bean id="workerThread" class="rashjz.info.app.workers.WorkerThread">
         <property name="name" value="${name}"/>
     </bean>
 
 
-    <bean id="mailVerification" class="rashjz.info.app.MailVerification">
+    <bean id="mailVerification" class="rashjz.info.app.util.MailVerification">
     </bean>
 </beans>

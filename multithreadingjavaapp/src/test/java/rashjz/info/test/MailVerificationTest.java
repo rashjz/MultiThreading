@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import rashjz.info.app.MailVerification;
+import rashjz.info.app.util.MailVerification;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,10 +26,9 @@ public class MailVerificationTest {
         mails.add("rashjz.info@mail.com");
         mails.add("rashjz.info@com");
 
-
         assertNotNull(mailVerification);
+
         for (String mail : mails) {
-            System.out.println(mailVerification.validate(mail));
             assertTrue(mailVerification.validate(mail));
         }
     }

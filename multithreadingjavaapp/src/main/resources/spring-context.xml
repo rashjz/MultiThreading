@@ -21,11 +21,12 @@
         <property name="password" value="${jdbc.password}" />
     </bean>
 
-    <bean id="workerThread" class="rashjz.info.app.WorkerThread">
+    <bean id="workerThread" class="rashjz.info.app.workers.WorkerThread">
         <property name="name" value="${name}"/>
         <property name="dataSource" ref="dataSource"/>
     </bean>
-
+    <bean id="taskServiceImpl" class="rashjz.info.app.workers.TaskServiceImpl">
+    </bean>
     <bean id="userDao" class="rashjz.info.app.dao.UserDao">
         <property name="dataSource" ref="dataSource"/>
     </bean>

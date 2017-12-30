@@ -1,4 +1,4 @@
-package rashjz.info.app;
+package rashjz.info.app.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
