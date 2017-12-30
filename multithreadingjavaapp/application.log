@@ -1,0 +1,16 @@
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-context-test.xml]
+INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@28feb3fa: startup date [Sat Dec 30 14:12:10 CET 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config-test.properties]
+INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@710726a3: defining beans [propertyPlaceholderConfigurer,workerThread,mailVerification]; root of factory hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-context-test.xml]
+INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@51931956: startup date [Sat Dec 30 14:12:10 CET 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config-test.properties]
+INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15bb6bea: defining beans [propertyPlaceholderConfigurer,workerThread,mailVerification]; root of factory hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-context-test.xml]
+INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@28feb3fa: startup date [Sat Dec 30 14:16:42 CET 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config-test.properties]
+INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@710726a3: defining beans [propertyPlaceholderConfigurer,workerThread,mailVerification]; root of factory hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-context-test.xml]
+INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@51931956: startup date [Sat Dec 30 14:16:43 CET 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config-test.properties]
+INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15bb6bea: defining beans [propertyPlaceholderConfigurer,workerThread,mailVerification]; root of factory hierarchy
