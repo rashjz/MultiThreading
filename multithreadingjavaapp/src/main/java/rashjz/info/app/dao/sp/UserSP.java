@@ -1,4 +1,4 @@
-package rashjz.info.app.sp;
+package rashjz.info.app.dao.sp;
 
 import org.springframework.jdbc.core.SqlOutParameter;
 import org.springframework.jdbc.core.SqlParameter;

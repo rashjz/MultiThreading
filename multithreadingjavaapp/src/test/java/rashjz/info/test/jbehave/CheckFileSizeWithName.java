@@ -1,4 +1,4 @@
-package rashjz.info.test;
+package rashjz.info.test.jbehave;
 
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;

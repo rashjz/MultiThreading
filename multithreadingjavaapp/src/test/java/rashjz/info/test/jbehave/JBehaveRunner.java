@@ -1,6 +1,5 @@
-package rashjz.info;
+package rashjz.info.test.jbehave;
 
-import rashjz.info.test.CheckFileSizeWithName;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.io.CodeLocations;
