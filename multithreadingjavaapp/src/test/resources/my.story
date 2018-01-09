@@ -5,6 +5,6 @@ I want to ensure files are ingested and processed in the manner in which the
 methods in the ingest class purport to process them.
 
 Scenario:  Simple test to give JBehave a test drive
-Given a file, my_steps.xml
+Given a file, spring-context-test.xml
 When check is file isFile
-Then file size should be 646 bytes.
+Then file size should be 835 bytes.
