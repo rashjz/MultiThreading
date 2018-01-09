@@ -1,7 +1,6 @@
-package org.exampledriven.jbehaveexample;
+package rashjz.info;
 
-
-import org.exampledriven.jbehaveexample.steps.CheckFileSizeWithName;
+import rashjz.info.test.CheckFileSizeWithName;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.io.CodeLocations;
