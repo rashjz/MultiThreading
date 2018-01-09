@@ -1,4 +1,4 @@
-package org.exampledriven.jbehaveexample.steps;
+package rashjz.info.test;
 
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
