@@ -1,11 +1,10 @@
 
-# Spring Test application 
+## Spring Test application 
 ##### * stored procedure call
 ##### * multithreading 
 
-
-######## Testing static methods is like 
-######## we prepare class for test @PrepareForTest(FileUtil.class) then using powermockito to when then return 
+###### Testing static methods is like 
+###### we prepare class for test @PrepareForTest(FileUtil.class) then using powermockito to when then return 
 
 
 
