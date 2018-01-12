@@ -37,7 +37,18 @@ public class FileUtilTest {
             e.printStackTrace();
         }
     }
+    
+    @Test
+    public void voidMethod() throws Exception {
+        FileUtil spy = PowerMockito.spy(new FileUtil());
 
+        for (int i = 0; i < spy.getMaxConnection(); i++) {
+            spy.getParentDirVoid( "test");
+        }
+
+        // verify that only configured number of connections will be created
+        verify(spy, times(spy.getMaxConnection())).getParentDirVoid(Matchers.anyString());
+    }
 }
 
 ```
