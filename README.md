@@ -6,8 +6,7 @@
 ###### Testing static methods is like 
 ###### we prepare class for test @PrepareForTest(FileUtil.class) then using powermockito to when then return 
 
-
-
+```java
 
 import com.rashjz.app.FileUtil;
 import org.junit.Before;
@@ -40,3 +39,6 @@ public class FileUtilTest {
     }
 
 }
+
+```
+
