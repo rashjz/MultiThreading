@@ -17,7 +17,7 @@ import static org.powermock.api.mockito.PowerMockito.verifyStatic;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(FileUtil.class)
-public class FileUtilTest {
+public class FileUtilStaticVoidTest {
     String path = "C:\\Users\\Rashad\\Desktop\\JavaMultiThreading\\multithreadingjavaapp";
 
 
